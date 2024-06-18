@@ -88,7 +88,7 @@ SSLPSKContext.sslsocket_class = SSLPSKSocket
 # Preparations to use the new SSLPSKContext object with Paho
 # https://github.com/eclipse/paho.mqtt.python/issues/451#issuecomment-705623084
 
-context = SSLPSKContext(ssl.PROTOCOL_TLS_CLIENT)
+context = SSLPSKContext(ssl.PROTOCOL_TLSv1_2)
 context.set_ciphers('PSK')
 context.psk = bytes.fromhex(CONFIG_HEX_PSK)
 context.identity = CONFIG_IDENTITY
