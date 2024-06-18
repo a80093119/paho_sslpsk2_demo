@@ -6,6 +6,7 @@ This repository demonstrates how to set a MQTT client based on `paho mqtt client
 - It is tested working on Linux, Python 3.10 and 3.11.
 - It is tested working on macOS 3.11.3, with Python compiled to use OpenSSL. Please [see below](#the-macos-case).
 - It does not work on Rocky Linux 8 with python 3.6 [Reported with #4 by @pat1](https://github.com/maovidal/paho_sslpsk2_demo/issues/4).
+- It is tested working on Win10, Python 3.8
 
 
 # Expected result
